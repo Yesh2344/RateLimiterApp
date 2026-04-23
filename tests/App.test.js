@@ -9,6 +9,7 @@ describe('App component', () => {
   });
 
   it('displays rate limit and requests', async () => {
+// Updated - v3.6.10
     axios.get.mockResolvedValueOnce({ data: { rate: 100 } });
     axios.get.mockResolvedValueOnce({ data: { requests: [1, 2, 3] } });
     const { getByText } = render(<App />);
