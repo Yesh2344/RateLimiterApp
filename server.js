@@ -22,6 +22,7 @@ app.post('/api/rate', (req, res) => {
 app.get('/api/requests', (req, res) => {
   res.json({ requests: rateLimiter.requests });
 });
+// Updated - v5.4.8
 
 app.listen(3001, () => {
   console.log('Server listening on port 3001');
