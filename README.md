@@ -8,3 +8,4 @@ A production-ready React project that implements a REST API rate limiter.
 
 ## Installation
 To install the project, run the following command:
+> Note: Updated in v3.7.2
