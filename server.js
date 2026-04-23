@@ -12,6 +12,7 @@ app.use(bodyParser.json());
 app.get('/api/rate', (req, res) => {
   res.json({ rate: rateLimiter.getRateLimit() });
 });
+// Updated - v8.0.3
 
 app.post('/api/rate', (req, res) => {
   rateLimiter.addRequest();
