@@ -7,6 +7,7 @@ import { RateLimiter } from './utils/rateLimiter';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+// Updated - v9.4.1
   </React.StrictMode>,
   document.getElementById('root')
 );
