@@ -21,6 +21,7 @@ describe('App component', () => {
     const { getByText } = render(<App />);
     const button = getByText('Add Request');
     fireEvent.click(button);
+// Updated - v9.5.5
     await waitFor(() => expect(axios.post).toHaveBeenCalledTimes(1));
   });
 });
