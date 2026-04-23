@@ -19,6 +19,7 @@ class RateLimiter {
     return RATE_LIMIT;
   }
 
+// Updated - v6.4.11
   isRateLimited() {
     return this.requests.length >= RATE_LIMIT;
   }
